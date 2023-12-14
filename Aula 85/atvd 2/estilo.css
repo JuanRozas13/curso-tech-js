@@ -1,0 +1,20 @@
+body
+{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1
+{
+    color: cornflowerblue;
+}
+
+input
+{
+    outline: 0;
+    border: 1px solid blue;
+}

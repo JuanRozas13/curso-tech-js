@@ -1,0 +1,49 @@
+/*              EXEMPLO 1                */
+/* .verde
+{
+    color: green;
+    background-color: black;
+    border: 4px solid blue;
+    margin: 200px 0px 0px 0px;
+    width: 200px;
+}
+ */
+
+/*                 EXERCICIO 1 */
+/* .aparece 
+{
+    height: 400px;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.desaparecer
+{
+    display: none;
+} */
+
+
+
+.messi 
+{
+    background-image: url("messi.jpg");
+    background-repeat: no-repeat ;
+    width: 1000px;
+    height: 1000px;  
+}
+
+.penaldo
+{
+    background-image: url("cr7chorao.jpg");
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 1000px;
+} 
+
+.neymar
+{
+    background-image: url("neymar.jpg");
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 1000px;
+} 

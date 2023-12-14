@@ -1,0 +1,426 @@
+					Aula 61 dia 17/10
+
+comando html
+<script src="nome.js"> </script>
+ele fica fora do body como irmão
+
+
+comando dentro .js
+	   
+1- console.log("ola");
+Imprime o texto no console como uma mensagem de log
+
+2- alert("texto"); 
+esse comando da um aviso de alerta na pagina web
+
+3- confirm("pergunta");
+ele como o alert ele aparece um quadrado na pagina porém
+perguntando se ok o cancel se vc confirma 
+
+4-prompt("digitar algo");
+como o comfirm ele aparece uma caixa na pagina web 
+porem ele aparece uma caixa pra vc digitar algo como um input
+
+
+					Aula 62 dia 18/10
+comando
+
+var: comando
+texto: atributo
+=: atribuição
+numero: valor
+
+1-var exibir = 5;
+
+2-var texto ="bom dia": para texto tem que usar as ""
+
+Tipos de variaveis
+
+1- number: tipo de numero pode ser qualque numero positivo, negativo e quebrados
+
+2- string: para textos e palavras
+
+3- bool: verdadeiro ou falso
+
+observação
+sempre que for usar um numero quebrado na variavel ao inves de fazer 
+var numero = 3,5
+faça
+var numero = 3.5 
+
+por com a virgula da erro e ela entende que um numero é um valor e o que vem depois da virula é outro.x
+
+					Aula 63 dia 19/10
+
+comando
+
+
+observação
+
+para fazer com que o:
+var nome = "juan";
+e
+var ano = 2005;
+apareça um do lado do outro no console na pagina é só fazer
+console.log(nome, ano);
+o que acontece é que eles não vao aparecer em linhas diferentes
+eles vão ficar na mesma linha porem um do lado do outro
+
+e para fazer uma mensagem do tipo 
+console
+1.85 'cm' 
+é só fazer 
+var altura = 1.85;
+console.log(altura, "cm")
+aqui ele vai colocar o cm junto com a variavel altura
+
+da para fazer conta de matematica também usando apenas o console.log(10+22);
+
+					Aula 64 dia 20/10
+
+					Aula 65 dia 23/10
+TABUADA
+var numero = prompt ("Qual tabuada você quer ver?");
+
+console.log(numero,"x 0 =", numero*0);
+console.log(numero,"x 1 =",numero*1);
+console.log(numero,"x 2 =",numero*2);
+console.log(numero,"x 3 =",numero*3);
+console.log(numero,"x 4 =",numero*4);
+console.log(numero,"x 5 =",numero*5);
+console.log(numero,"x 6 =",numero*6);
+console.log(numero,"x 7 =",numero*7);
+console.log(numero,"x 8 =",numero*8);
+console.log(numero,"x 9 =",numero*9);
+console.log(numero,"x 10 =",numero*10);
+
+					Aula 66 dia 24/10
+comando:
+1- document.write("texto");
+esse  
+
+					Aula 67 dia 25/10
+comando:
+1-number(colaca o nome que vc deu para a variavel);
+ele converte as palavras em numeros.
+porem ele so funciona se vc quardar essa informação
+exemplo:
+
+primeiro_numero = number(primeiro -numero);
+
+ou 
+
+// outro jeito de ser feito a troca de palavras para number
+var primeiro_numero = Number (prompt(primeiro_numero));
+var segundo_numero = Number (prompt(segundo_numero));
+
+
+2- variavel.length:
+exemplo:console.log(nome.length);
+ele mostra quantos caracteries tem uma palavra
+
+3- variavel.toUpperCase 
+exemplo:console.log(nome.toUpperCase());
+ele deixa tudo que vc escreveu em maiusculo
+
+4- variavel.toLowerCase
+exemplo:console.log(nome.toLowerCase());
+ele deixa tudo que vc escreveu em maiuscol para minusculos 
+
+observação:
+
+					Aula 68 dia 26/10
+CONDIÇÕES if elsse
+comando:
+1- if <
+
+var numero = 5;
+
+// se (numero for menor que 10)
+if (numero < 10)
+{
+    console.log("é menor");
+}
+
+2- if >
+var numero = 5;
+
+//  se (numero for maior que 10)
+if(numero > 10)
+{
+    console.log("é maior");
+}
+
+
+observação:
+
+					Aula 69 dia 27/10
+comando:
+1- else
+ele só funciona se vc tiver um if
+var numero = 6;
+
+if (numero > 5)
+{
+    console.log("é maior");
+}
+
+else
+{
+    console.log("é menor");
+}
+
+observação:
+
+1- &&
+ele pode ser usado no if quando vc estiver dando condição a uma variavel e que 
+vc queira dar duas condição sem usar dois if
+exemplo:
+if ( numero > 0 && numero < 10);
+aqui vc esta dando duas condições dizendo que o numero digitado de 0 a 10 vai valer
+se se a condição for respeitada ou seja se for maior que 10 não vale de for menor que
+0 não vale. 
+
+					Aula 70 dia 30/10
+exercicios
+
+comando:
+==:
+
+					Aula 71 dia 31/10
+comando:
+1- ==:
+
+observação:
+var produto = "banana";
+
+if (produto == "banana")
+
+					Aula 71-71 dia 31/10
+observação:
+var click = true;
+aqui vc esta dizendo que sua variavel é verdadeira
+
+var click = false;
+aqui vc esta dizendo que sua variavel é false
+
+
+uva = 6: vale 6
+
+uva == 6: condição
+
+
+					Aula 74 dia 06/11
+1-Hoje vamos aprender a mexer no html pelo js
+
+2-como trocar o conteudo de um texto
+
+COMANDO:
+1-document.getElementById("teste");
+ela vai fazer com que agente tenha acesso ao nosso id dado no html
+
+2-document.getElementsByClassName("lorem")[];
+ele vai fazer para que nós tenhamos acesso a nossa class, porem dentro do colchete [] nós iremos colocar o numero da classe que queremos acessar 
+
+3-
+var nome = document.getElementById("title"); acessando o id do html
+nome.textContent = "Ola juan"; muda mensagem do id no site
+
+
+OBSERVÇÃO:
+1- var titulo = document.getElementById("teste");  essa combinação 	 (document.getElementById("teste")) ela vai fazer com que agente tenha acesso ao nosso id dado no html no caso aqui no lugar do teste ("pode ser um ide ou uma classe dada no html") 
+
+2-a variavel é capaz de guardar um comando por vez isso servindo para o proximo comando para acessar o class que é o document.getElementsByClassName("lorem");
+
+EXEMPLOS USADOS:
+1-
+var titulo = document.getElementById("teste"); 
+var paragrafo = document.getElementById("lorem")
+
+console.log(titulo);
+console.log(paragrafo);
+
+no console apareceria todo o codigo do  id usado no html
+
+2-document.getElementsByClassName("lorem")[];
+exemplo:
+	HTML
+<p class="lorem">
+    ola bom dia
+</p>
+
+<h1 class="lorem">
+    tudo bem
+</h1>
+
+<button class="lorem">kkkkkkk</button>
+
+todos estão usando a mesma class porem cada um significa um numero, por ordem a primeira class é p então ela é o numero zero o h1 é o 1 o button será o 2 
+
+então se vc quiser acessar o button seria assim
+
+	JAVASCRIPT
+document.getElementsByClassName("lorem")[2];
+
+					Aula 76 dia 08/11
+1-Hoje vamos aprender a aplicar estilos pelo js
+
+comando:
+
+1-palavra.style.backgroundColor = "blue";
+elas vem depois de vc criar uma variavel
+
+exemplo:
+var palavra = document.getElementById("titulo");
+
+palavra.style.backgroundColor = "blue";
+
+funcionamento:
+
+palavra.style.backgroundColor = "black";
+palavra.style.color = "white";
+palavra.style.border = "3px solid blue";
+palavra.style.cursor = "pointer";
+palavra.style.padding = "30px 90px 30px 90px";
+palavra.style.fontWeight = "normal";
+palavra.style.margin = "0px"
+
+
+					Aula 77 dia 09/11
+1-Hoje vamos aprender função
+
+COMANDO:
+1- 
+function variavel()
+{
+    console.log("ola"); 
+}
+
+
+variavel();
+
+nome da variavel a primeira letra tem que ser maiuscula
+
+	
+
+					Aula 78 dia 10/11
+COMANDO:
+1- let
+quando vc for criar uma variavel dentro da função vc vai usar o let
+
+
+OBSERVAÇÃO:
+1-quando for criar uma variavel fora da função vc vai usar o var 
+se vc for criar uma variavel dentro da função vc vai usar o let
+
+exemplo:
+var nome;
+
+function Olhar_Idioma ()
+{
+    let nome;
+}
+
+					Aula 79 dia 13/11	
+COMANDO:
+
+
+ATRIBUTO HTML:
+onclick = "nome da função"
+esse atributo ele funciona ao clickar
+ao clickar aconteça o evento que esta ligado a função no js
+exemplo:
+<h1 id="titulo" onclick="Testando()">
+    ola
+</h1>
+
+					Aula 80 dia 14/11
+COMANDO:
+
+					Aula 82 dia 16/11
+COMANDO:
+
+					Aula 83 dia 21/11
+COMANDO html:
+1- oninput: 
+oninput= "nome da função()"
+quando vc mudou o conteudono input que seja referencia ao value
+
+2- onmouseover:
+onmouseover= "nome da função()
+evento chamado quando passar o mouse por cima do comando
+
+3- onmouseout:
+onmouseout= "nome da função()
+evento chamado quando tirar o mouse por cima do comando
+
+4- onfocus:
+onfocus= "nome da função ()"
+
+4- onload:
+onload
+
+pode sim usar duas ou mais funções no html
+
+
+					Aula 86 dia 23/11
+COMANDO 
+1-texto.classList.add("nome da classe que vc quer adicionar")
+lembrando que no css deve ter a classe criada 
+
+esse comando ele aplica uma classe no comando html em tempo real.
+
+como ficaria
+
+html:
+ <body>
+    
+      <h1 onclick="Trocar()" id="texto" ondblclick="Brocar()" >ola</h1>
+
+ </body>
+
+css:
+.verde
+{
+    color: green;
+    background-color: black;
+    border: 4px solid blue;
+    margin: 200px 0px 0px 0px;
+    width: 200px;
+    display: none;
+}
+
+javascript:
+function Trocar()
+{
+    let texto = document.getElementById("texto");
+    
+    texto.classList.add("verde")
+}
+
+
+2- texto.classList.remove("nome da classe que vc quer adicionar");
+
+no caso para fazer uma div aparecer e sumir énecessario usar esse remove para que possa fazer a troca de class
+
+exemplo:
+function Mostrar()
+{
+    let minha_div = document.getElementById("container");
+    minha_div.classList.add("aparece");
+    minha_div.classList.remove("desaparecer")
+    
+}
+
+function Desaparecer()
+{
+    let sumir = document.getElementById("container");
+    sumir.classList.remove("aparece");
+    sumir.classList.add("desaparecer");
+    
+}
+
+
+
+					Aula 87 dia 24/11
+COMANDO 

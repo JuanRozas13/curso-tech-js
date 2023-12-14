@@ -1,0 +1,28 @@
+1- <script> --> esse comando ele fica responsavel por execultar e
+fazer a ligação entre o html e o js
+
+2- alert --> o comando alert ele faz aparecer uma caixa de mensagem escrita "essa pagina diz" e abaixo da mensgem o que o programador escreveu
+
+3- prompt --> esse comando ele executa uma caixa para preencher com qualquer informação
+
+4- console.log --> esse comando ele imprime o texto no console da pagina como 
+uma mensagem
+
+é uma caixinha especifica para mostrar para o programador o que esta acontecendo nas 
+linhas dos codigo
+
+5- confirm --> ele tem como principio aparecer uma caixa de mensagem de confirmação
+
+6- é um espaço na memória da maquina destinado a um dado que é alterado durante a execução do algoritmo
+
+as variaveis que eu conheci hoje foi:
+1- number: tipo de numero pode ser qualque numero positivo, negativo e quebrados
+
+2- string: para textos e palavras
+
+3- bool: verdadeiro ou falso
+
+
+7- o comentario ele é essencial para que vc faça marcações no seu programa seja ele qual
+for para que vc não se perca e que fique mas transparente seu codigo
+toda linha que é comentario ela é ignorada pela codigo

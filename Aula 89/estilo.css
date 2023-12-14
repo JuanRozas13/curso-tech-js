@@ -1,0 +1,47 @@
+body
+{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container
+{
+    background-color: rgb(0, 0, 0);
+    height: 640px;
+}
+
+header
+{
+    background-color: violet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+
+
+header .header-logo h1
+{
+    margin: 0px;
+    text-shadow: 1px 5px 5px rgb(240, 76, 76);
+
+}
+
+header .header-carrinho-compra 
+{
+    display: flex;
+    align-items: center;
+}
+
+header .header-carrinho-compra img
+{
+    width: 40px;
+    height: 50px;
+}
+
+header .header-carrinho-compra p
+{
+    font-size: 26px;
+    margin: 0px 0px 0px 10px;
+}

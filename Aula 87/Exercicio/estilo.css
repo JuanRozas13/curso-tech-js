@@ -1,0 +1,109 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sumir {
+    display: none;
+}
+
+.lateral-bar {
+    height: 647px;
+    left: 670px;
+    width: 50%;
+    background-color: white;
+    position: fixed;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#lateral-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(226, 0, 0);
+    padding: 10px;
+}
+
+#lateral-logo-img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+#lateral-close-img {
+    height: 50px;
+    width: 50px;
+    border: 3px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#lateral-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#lateral-main h2 {
+    text-align: center;
+    width: 500px;
+    margin: 23px;
+    border: 2px solid black;
+    padding: 5px 40px;
+    border-radius: 15px;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 0px 50px;
+}
+
+#logo-img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+#logo-name {
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 5px;
+    color: white;
+}
+
+#header-menu {
+    height: 55px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: red;
+    cursor: pointer;
+}
+
+
+main {
+    display: flex;
+    height: 502px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #110202;
+}
+
+#main-img {
+    margin-top: 20px;
+    border-radius: 15px;
+    height: 200px;
+}
+
+#main-paragrafo {
+    font-size: 25px;
+    color: rgb(255, 252, 252);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 820px;
+}
+
